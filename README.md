@@ -57,7 +57,6 @@ Coordinate Reference System (CRS): **EPSG:32644 (WGS 84 / UTM Zone 44N)**
 - **Visualization & Mapping:** QGIS Print Layout
 - **Version Control:** GitHub
 
-
 ---
 
 ## 📈 Results
@@ -66,6 +65,19 @@ Coordinate Reference System (CRS): **EPSG:32644 (WGS 84 / UTM Zone 44N)**
 - Vegetation and water classes showed high precision due to strong spectral separability.
 - Some confusion was observed between built-up and barren land, which is expected at 10 m resolution.
 - The final output is a georeferenced LULC map suitable for urban analysis and planning applications.
+
+---
+
+## 🎯 Skills Demonstrated
+
+- Urban LULC mapping using satellite imagery
+- Supervised machine learning for geospatial data
+- Training data preparation and feature extraction
+- Python-based geospatial analysis
+- Cartographic map production
+- Reproducible project structuring for GitHub
+
+
 
 
 
