@@ -46,6 +46,19 @@ Coordinate Reference System (CRS): **EPSG:32644 (WGS 84 / UTM Zone 44N)**
 5. The trained model was applied to the full raster to generate a classified LULC map.
 6. Final cartographic outputs were created using QGIS Print Layout.
 
+---
+
+## 🧰 Tools & Technologies
+
+- **GIS:** QGIS (LTR)
+- **Programming Language:** Python 3.x
+- **Machine Learning:** Random Forest (scikit-learn)
+- **Geospatial Libraries:** rasterio, geopandas, numpy, pandas
+- **Visualization & Mapping:** QGIS Print Layout
+- **Version Control:** GitHub
+
+
+
 
 
 
