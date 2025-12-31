@@ -35,4 +35,17 @@ Coordinate Reference System (CRS): **EPSG:32644 (WGS 84 / UTM Zone 44N)**
 
 > Note: Raw Sentinel-2 data is not included in this repository due to file size limitations.
 
+---
+
+## ⚙️ Methodology
+
+1. Sentinel-2 tiles were mosaicked, reprojected, and clipped to the study area using QGIS.
+2. Training polygons representing major LULC classes were manually digitized.
+3. Pixel-level spectral features were extracted from multispectral bands.
+4. A **Random Forest classifier** was trained using Python (scikit-learn).
+5. The trained model was applied to the full raster to generate a classified LULC map.
+6. Final cartographic outputs were created using QGIS Print Layout.
+
+
+
 
